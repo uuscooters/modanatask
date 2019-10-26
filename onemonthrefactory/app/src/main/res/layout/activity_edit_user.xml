@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EditUserActivity">
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/holo_blue_dark"
+        android:orientation="horizontal"
+        android:layout_centerInParent="true"
+        android:paddingLeft="25dp">
+        
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_back"
+            android:layout_gravity="center"/>
+        
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit"
+            android:textColor="@color/whiteTextColor"
+            android:background="@android:color/holo_blue_dark"
+            android:gravity="center"
+            android:layout_marginLeft="120dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Save"
+            android:background="@android:color/holo_blue_dark"
+            android:textColor="@color/whiteTextColor"
+            android:layout_marginLeft="50dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/photoProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/header"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/tvBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_login_bk"
+
+
+            />
+
+    </LinearLayout>
+
+
+
+
+
+
+    </RelativeLayout>
